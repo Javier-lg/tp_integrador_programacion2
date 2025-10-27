@@ -1,0 +1,61 @@
+fecha,sucursal,producto,categoria,cantidad,precio_unitario
+2019-01-12,Oeste,Queso por kg,Lácteos,16,1.4
+2020-06-15,Sur,Atún en lata,Alimentos,18,9.01
+2019-05-30,Centro,Queso por kg,Lácteos,5,16.31
+2020-05-21,Este,Aceite 1L,Alimentos,18,17.66
+2021-06-26,Centro,Queso por kg,Lácteos,6,6.59
+2020-10-30,Este,Detergente,Limpieza,12,5.75
+2020-08-14,Norte,Detergente,Limpieza,8,3.85
+2020-08-10,Sur,Atún en lata,Alimentos,16,4.28
+2020-10-13,Este,Atún en lata,Alimentos,8,8.29
+2019-09-16,Centro,Detergente,Limpieza,11,17.82
+2020-09-10,Norte,Detergente,Limpieza,1,4.84
+2021-07-28,Oeste,Atún en lata,Alimentos,19,16.7
+2019-06-26,Oeste,Aceite 1L,Alimentos,17,13.8
+2019-08-22,Norte,Queso por kg,Lácteos,7,4.84
+2020-01-18,Centro,Jabón de barra,Limpieza,16,19.37
+2021-02-09,Norte,Aceite 1L,Alimentos,19,19.37
+2021-01-16,Oeste,Leche 1L,Lácteos,18,5.52
+2019-10-17,Este,Queso por kg,Lácteos,11,14.14
+2019-01-27,Norte,Detergente,Limpieza,15,19.4
+2020-08-05,Oeste,Detergente,Limpieza,18,11.93
+2019-04-16,Centro,Leche 1L,Lácteos,12,13.87
+2021-04-20,Oeste,Arroz 1kg,Alimentos,3,17.31
+2019-11-23,Norte,Arroz 1kg,Alimentos,4,3.91
+2020-11-27,Sur,Arroz 1kg,Alimentos,9,2.16
+2020-08-25,Centro,Detergente,Limpieza,5,17.71
+2020-12-27,Este,Atún en lata,Alimentos,13,18.66
+2019-03-02,Norte,Leche 1L,Lácteos,11,8.94
+2021-07-09,Centro,Aceite 1L,Alimentos,15,5.57
+2019-03-16,Este,Queso por kg,Lácteos,18,7.45
+2021-09-18,Oeste,Aceite 1L,Alimentos,19,5.85
+2019-04-08,Este,Pan de molde,Alimentos,2,2.03
+2020-11-01,Oeste,Jabón de barra,Limpieza,6,11.78
+2019-10-23,Sur,Detergente,Limpieza,11,8.29
+2019-05-30,Este,Leche 1L,Lácteos,17,5.59
+2021-07-12,Este,Leche 1L,Lácteos,9,8.05
+2019-09-06,Centro,Arroz 1kg,Alimentos,4,7.67
+2021-01-04,Oeste,Pan de molde,Alimentos,3,13.61
+2021-07-18,Sur,Aceite 1L,Alimentos,2,7.37
+2020-10-22,Oeste,Aceite 1L,Alimentos,1,19.81
+2020-01-13,Este,Leche 1L,Lácteos,11,5.28
+2019-09-13,Este,Arroz 1kg,Alimentos,19,18.35
+2021-08-09,Oeste,Arroz 1kg,Alimentos,4,13.87
+2019-05-18,Sur,Jabón de barra,Limpieza,1,8.98
+2020-05-10,Sur,Detergente,Limpieza,13,7.56
+2019-07-07,Sur,Atún en lata,Alimentos,10,10.68
+2021-01-03,Este,Aceite 1L,Alimentos,5,6.49
+2020-07-16,Centro,Atún en lata,Alimentos,18,1.97
+2020-09-20,Este,Atún en lata,Alimentos,9,19.32
+2019-01-24,Sur,Detergente,Limpieza,6,6.9
+2021-06-07,Sur,Aceite 1L,Alimentos,17,1.15
+2019-01-24,Norte,Arroz 1kg,Alimentos,11,3.18
+2019-01-05,Oeste,Queso por kg,Lácteos,12,12.54
+2020-03-16,Este,Detergente,Limpieza,12,9.53
+2019-10-23,Norte,Leche 1L,Lácteos,5,19.74
+2019-11-28,Oeste,Aceite 1L,Alimentos,7,3.29
+2019-09-20,Centro,Aceite 1L,Alimentos,14,7.64
+2020-03-19,Norte,Detergente,Limpieza,16,2.51
+2019-11-07,Centro,Queso por kg,Lácteos,7,15.07
+2019-09-22,Este,Pan de molde,Alimentos,14,12.03
+2020-08-14,Sur,Arroz 1kg,Alimentos,10,2.7
