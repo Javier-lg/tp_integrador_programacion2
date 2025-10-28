@@ -12,7 +12,6 @@ class VentasController:
 
             return 
         
-        self.view.mostrar_bienvenida()
 
         while True:
             productos = self.model.get_productos_unicos()
@@ -23,14 +22,17 @@ class VentasController:
 
             producto_elegido = self.view.mostrar_menu_productos_paginado(productos)
 
-            if producto_elegido is None:
-                self.view.mostrar_despedida()
+            if producto_elegido == 'reporte':
+                self.analizar_categorias()
+
+            elif producto_elegido is None:
                 break
+            
+            else:
+                self.view.limpiar_pantalla()
+                self.analizar_producto(producto_elegido)
 
-            self.view.limpiar_pantalla()
-            self.analizar_producto(producto_elegido)
-
-            self.view.pausa()
+                self.view.pausa()
 
     def analizar_producto(self, producto):
         self.view.mostrar_titulo_reporte(producto)
@@ -41,9 +43,11 @@ class VentasController:
             return
         
         datos_np = self.model.mascaras_numpy(resumen['mensual'])
-        datos_torta_cat = self.model.get_datos_torta_categorias()
 
         self.view.mostrar_reporte_producto(resumen, datos_np)
 
         self.view.graficar_linea(resumen['mensual'], producto)
+
+    def analizar_categorias(self):
+        datos_torta_cat = self.model.get_datos_torta_categorias()
         self.view.graficar_torta(datos_torta_cat, "Participacion por categoria")

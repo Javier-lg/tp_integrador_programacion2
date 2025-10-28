@@ -1,9 +1,9 @@
-from controllers.ventas_controller import VentasController
+from controllers.main_controller import MainController
 
 def main():
     print("iniciando app...")
     try:
-        app = VentasController()
+        app = MainController()
 
         app.run()
 

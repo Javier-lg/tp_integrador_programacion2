@@ -1,41 +1,11 @@
 import os
 import matplotlib.pyplot as plt
 import pandas as pd
+from views.base_view import BaseView
 
-class VentasView:
+class VentasView(BaseView):
     def __init__(self, items_por_pagina=5):
         self.items_por_pagina= items_por_pagina
-
-    def limpiar_pantalla(self):
-        os.system('cls' if os.name == 'nt' else 'clear')
-
-    def pausa(self):
-        print("\nPresione Enter para continuar...")
-        input()
-
-    def mostrar_bienvenida(self):
-        self.limpiar_pantalla()
-        print("=================================================")
-        print("   Sistema de Análisis de Ventas - Examen Final")
-        print("   Autor: Salinas Lavayen Roberto Javier")
-        print("   Materia: Programación II - UCASAL")
-        print("=================================================\n")
-        print("Este proyecto implementa un análisis de datos de ventas")
-        print("utilizando Pandas, NumPy y Matplotlib, estructurado")
-        print("bajo una arquitectura Modelo-Vista-Controlador (MVC).")
-        print("\nSe analizarán los datos cargados desde 'data/ventas.csv'.")
-        self.pausa()
-
-    def mostrar_despedida(self):
-        self.limpiar_pantalla()
-        print("=========================================")
-        print(" Gracias por utilizar el sistema.")
-        print(" Valar Morghulis")
-        print("=========================================")
-
-    def mostrar_error(self, mensaje):
-        print(f"\n[ERROR] {mensaje}")
-        self.pausa()
 
     def mostrar_menu_productos_paginado(self, productos):
         pagina_actual = 0
@@ -55,6 +25,7 @@ class VentasView:
             print("\n" + "-"*30)
             print(f"Página {pagina_actual + 1} de {total_paginas}")
             print("Opciones:")
+            print("  [reporte_categorias] Reporte de ventas por categoria")
             if fin < len(productos):
                 print("  [s] Siguiente pagina (Ver mas)")
             if pagina_actual > 0:
@@ -62,7 +33,7 @@ class VentasView:
             print("  [v] Salir del programa")
             print("-" * 30)
 
-            opcion = input("Ingrese el NUMERO del producto o una opción (s/a/v): ").strip().lower()
+            opcion = input("Ingrese el NUMERO del producto o una opción (reporte_categorias/s/a/v): ").strip().lower()
             
             if opcion.isdigit():
                 opcion_num = int(opcion)
@@ -82,6 +53,8 @@ class VentasView:
                 pagina_actual -= 1
             elif opcion == 'v':
                 return None
+            elif opcion == 'reporte_categorias':
+                return 'reporte'
             else:
                 print(f"\nError: Opcion '{opcion}' no reconocida.")
                 self.pausa()

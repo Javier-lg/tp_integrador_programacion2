@@ -1,0 +1,81 @@
+cliente_id,nombre,email,telefono,direccion,fecha_alta
+1,Mateo Ríos,mateo.ríos@ejemplo.com,951738244,Pueyrredón 78,2020-05-25
+2,Agustín Castro,agustín.castro@ejemplo.com,966828748,9 de Julio 890,2023-11-27
+3,Manuela Díaz,manuela.díaz@ejemplo.com,981831204,Av. Libertador 1234,2024-09-13
+4,Mónica Ruiz,mónica.ruiz@ejemplo.com,971484072,San Martín 567,2025-08-21
+5,Esteban González,esteban.gonzález@ejemplo.com,993879748,Av. Libertador 1234,2023-06-28
+6,Mateo Pérez,mateo.pérez@ejemplo.com,922805733,9 de Julio 890,2023-11-10
+7,Florencia Torres,florencia.torres@ejemplo.com,942486287,Belgrano 234,2021-07-11
+8,Gabriel Gómez,gabriel.gómez@ejemplo.com,913088976,Av. Libertador 1234,2025-05-07
+9,Silvia Sánchez,silvia.sánchez@ejemplo.com,974023781,Rivadavia 3456,2022-08-23
+10,Lucía Pérez,lucía.pérez@ejemplo.com,976812703,Hipólito Yrigoyen 910,2022-06-26
+11,Agata Romero,agata.romero@ejemplo.com,925430313,Pueyrredón 78,2025-02-16
+12,Gisela López,gisela.lópez@ejemplo.com,998598656,Rivadavia 3456,2020-12-27
+13,Mateo García,mateo.garcía@ejemplo.com,970546872,Belgrano 234,2021-02-19
+14,Ivana García,ivana.garcía@ejemplo.com,943431198,Belgrano 234,2024-05-13
+15,Diego López,diego.lópez@ejemplo.com,945670096,Mitre 12,2025-03-17
+16,Gabriel Romero,gabriel.romero@ejemplo.com,910556877,Mitre 12,2023-08-26
+17,Lorena Martínez,lorena.martínez@ejemplo.com,942086210,Mitre 12,2025-08-30
+18,Mateo Torres,mateo.torres@ejemplo.com,920584767,Pueyrredón 78,2024-05-13
+19,Lorena Ruiz,lorena.ruiz@ejemplo.com,972551086,Belgrano 234,2022-08-16
+20,Mónica Herrera,mónica.herrera@ejemplo.com,915196454,San Martín 567,2021-05-09
+21,Valentina Martínez,valentina.martínez@ejemplo.com,923533127,Hipólito Yrigoyen 910,2023-07-20
+22,Florencia Vega,florencia.vega@ejemplo.com,981050624,Av. Libertador 1234,2020-08-05
+23,Ivana Sánchez,ivana.sánchez@ejemplo.com,956570099,9 de Julio 890,2025-01-06
+24,Óscar Pérez,óscar.pérez@ejemplo.com,993623749,Mitre 12,2020-12-11
+25,Catalina López,catalina.lópez@ejemplo.com,969979756,Av. Libertador 1234,2020-11-20
+26,Matías Torres,matías.torres@ejemplo.com,977294447,San Martín 567,2024-04-09
+27,Ramiro Gómez,ramiro.gómez@ejemplo.com,955447357,San Martín 567,2025-01-12
+28,Gisela García,gisela.garcía@ejemplo.com,993407527,Mitre 12,2022-10-01
+29,Ivana Ruiz,ivana.ruiz@ejemplo.com,976843239,Mitre 12,2024-10-16
+30,Florencia Romero,florencia.romero@ejemplo.com,996972045,Hipólito Yrigoyen 910,2023-12-23
+31,Mateo López,mateo.lópez@ejemplo.com,973242658,Belgrano 234,2023-03-30
+32,Paula Romero,paula.romero@ejemplo.com,962247313,Mitre 12,2023-12-07
+33,Bruno Ríos,bruno.ríos@ejemplo.com,947728048,Av. Libertador 1234,2021-09-03
+34,Mariana Martínez,mariana.martínez@ejemplo.com,968956002,9 de Julio 890,2024-12-17
+35,Hugo Fernández,hugo.fernández@ejemplo.com,928624473,Hipólito Yrigoyen 910,2021-09-08
+36,Juan Torres,juan.torres@ejemplo.com,928801667,Belgrano 234,2025-04-06
+37,Camila Suárez,camila.suárez@ejemplo.com,988396720,Mitre 12,2023-11-06
+38,Lucía Ruiz,lucía.ruiz@ejemplo.com,968656263,Mitre 12,2025-04-19
+39,Gabriel Castro,gabriel.castro@ejemplo.com,917246786,Pueyrredón 78,2023-08-30
+40,Mónica Rodríguez,mónica.rodríguez@ejemplo.com,945155772,Belgrano 234,2024-02-03
+41,Gisela Ríos,gisela.ríos@ejemplo.com,938899661,Hipólito Yrigoyen 910,2025-05-05
+42,Nicolás Sánchez,nicolás.sánchez@ejemplo.com,932609951,Mitre 12,2025-01-01
+43,Ana Pérez,ana.pérez@ejemplo.com,948021057,San Martín 567,2023-06-24
+44,Marcos Romero,marcos.romero@ejemplo.com,966104658,Hipólito Yrigoyen 910,2021-07-10
+45,Diego González,diego.gonzález@ejemplo.com,948917213,Av. Libertador 1234,2020-12-04
+46,Manuela Gómez,manuela.gómez@ejemplo.com,968496786,9 de Julio 890,2021-03-06
+47,Julieta Flores,julieta.flores@ejemplo.com,950186571,Av. Libertador 1234,2021-09-02
+48,Gabriel Gómez,gabriel.gómez2@ejemplo.com,940283082,Av. Libertador 1234,2020-12-11
+49,Sofía Díaz,sofía.díaz@ejemplo.com,949355805,9 de Julio 890,2020-10-31
+50,Mónica Castro,mónica.castro@ejemplo.com,918622992,Belgrano 234,2021-06-14
+51,Gisela Pérez,gisela.pérez@ejemplo.com,912969716,9 de Julio 890,2025-01-19
+52,María Pérez,maría.pérez@ejemplo.com,984300451,Av. Libertador 1234,2025-05-29
+53,Matías Romero,matías.romero@ejemplo.com,972395235,Hipólito Yrigoyen 910,2021-12-28
+54,Mariana Vega,mariana.vega@ejemplo.com,958142158,9 de Julio 890,2021-11-07
+55,Ramiro Herrera,ramiro.herrera@ejemplo.com,922614849,Av. Libertador 1234,2021-01-01
+56,Enzo Torres,enzo.torres@ejemplo.com,938524317,Pueyrredón 78,2022-05-17
+57,Irene Vega,irene.vega@ejemplo.com,987355476,Av. Libertador 1234,2022-09-26
+58,Agustín Pérez,agustín.pérez@ejemplo.com,936851343,Mitre 12,2021-05-02
+59,Agustín Herrera,agustín.herrera@ejemplo.com,912536987,Pueyrredón 78,2020-12-26
+60,Lucía Ruiz,lucía.ruiz2@ejemplo.com,991862112,Hipólito Yrigoyen 910,2021-05-05
+61,Bruno Gómez,bruno.gómez@ejemplo.com,947954962,9 de Julio 890,2021-03-29
+62,Juan Romero,juan.romero@ejemplo.com,988485342,Hipólito Yrigoyen 910,2021-10-21
+63,Ana López,ana.lópez@ejemplo.com,937474475,Rivadavia 3456,2021-12-23
+64,Martín Sánchez,martín.sánchez@ejemplo.com,949895729,Hipólito Yrigoyen 910,2020-05-18
+65,Ramiro Rodríguez,ramiro.rodríguez@ejemplo.com,990201025,Hipólito Yrigoyen 910,2023-03-13
+66,Manuela Sánchez,manuela.sánchez@ejemplo.com,961206298,San Martín 567,2022-07-23
+67,Ivana Suárez,ivana.suárez@ejemplo.com,960543310,Rivadavia 3456,2025-02-27
+68,Florencia Sánchez,florencia.sánchez@ejemplo.com,915914242,Belgrano 234,2022-10-18
+69,Mariana Sánchez,mariana.sánchez@ejemplo.com,933277415,Mitre 12,2023-06-06
+70,Julieta Pérez,julieta.pérez@ejemplo.com,988456809,San Martín 567,2025-09-17
+71,Pedro Ríos,pedro.ríos@ejemplo.com,944975265,Pueyrredón 78,2022-01-03
+72,Matías González,matías.gonzález@ejemplo.com,953790982,Pueyrredón 78,2023-06-17
+73,Óscar Díaz,óscar.díaz@ejemplo.com,986293580,Mitre 12,2020-05-18
+74,Gisela Herrera,gisela.herrera@ejemplo.com,962061749,9 de Julio 890,2021-08-03
+75,Agustín López,agustín.lópez@ejemplo.com,967988429,San Martín 567,2023-09-15
+76,Nicolás Rodríguez,nicolás.rodríguez@ejemplo.com,910711484,Pueyrredón 78,2024-10-07
+77,Enzo Martínez,enzo.martínez@ejemplo.com,939760807,Mitre 12,2022-01-09
+78,Lorena Castro,lorena.castro@ejemplo.com,945683647,9 de Julio 890,2024-01-05
+79,Bruno Pérez,bruno.pérez@ejemplo.com,979903872,Hipólito Yrigoyen 910,2020-12-12
+80,Ivana Rodríguez,ivana.rodríguez@ejemplo.com,950431749,Mitre 12,2024-02-24

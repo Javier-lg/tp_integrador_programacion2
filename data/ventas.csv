@@ -1,61 +1,621 @@
 fecha,sucursal,producto,categoria,cantidad,precio_unitario
-2019-01-12,Oeste,Queso por kg,Lácteos,16,1.4
-2020-06-15,Sur,Atún en lata,Alimentos,18,9.01
-2019-05-30,Centro,Queso por kg,Lácteos,5,16.31
-2020-05-21,Este,Aceite 1L,Alimentos,18,17.66
-2021-06-26,Centro,Queso por kg,Lácteos,6,6.59
-2020-10-30,Este,Detergente,Limpieza,12,5.75
-2020-08-14,Norte,Detergente,Limpieza,8,3.85
-2020-08-10,Sur,Atún en lata,Alimentos,16,4.28
-2020-10-13,Este,Atún en lata,Alimentos,8,8.29
-2019-09-16,Centro,Detergente,Limpieza,11,17.82
-2020-09-10,Norte,Detergente,Limpieza,1,4.84
-2021-07-28,Oeste,Atún en lata,Alimentos,19,16.7
-2019-06-26,Oeste,Aceite 1L,Alimentos,17,13.8
-2019-08-22,Norte,Queso por kg,Lácteos,7,4.84
-2020-01-18,Centro,Jabón de barra,Limpieza,16,19.37
-2021-02-09,Norte,Aceite 1L,Alimentos,19,19.37
-2021-01-16,Oeste,Leche 1L,Lácteos,18,5.52
-2019-10-17,Este,Queso por kg,Lácteos,11,14.14
-2019-01-27,Norte,Detergente,Limpieza,15,19.4
-2020-08-05,Oeste,Detergente,Limpieza,18,11.93
-2019-04-16,Centro,Leche 1L,Lácteos,12,13.87
-2021-04-20,Oeste,Arroz 1kg,Alimentos,3,17.31
-2019-11-23,Norte,Arroz 1kg,Alimentos,4,3.91
-2020-11-27,Sur,Arroz 1kg,Alimentos,9,2.16
-2020-08-25,Centro,Detergente,Limpieza,5,17.71
-2020-12-27,Este,Atún en lata,Alimentos,13,18.66
-2019-03-02,Norte,Leche 1L,Lácteos,11,8.94
-2021-07-09,Centro,Aceite 1L,Alimentos,15,5.57
-2019-03-16,Este,Queso por kg,Lácteos,18,7.45
-2021-09-18,Oeste,Aceite 1L,Alimentos,19,5.85
-2019-04-08,Este,Pan de molde,Alimentos,2,2.03
-2020-11-01,Oeste,Jabón de barra,Limpieza,6,11.78
-2019-10-23,Sur,Detergente,Limpieza,11,8.29
-2019-05-30,Este,Leche 1L,Lácteos,17,5.59
-2021-07-12,Este,Leche 1L,Lácteos,9,8.05
-2019-09-06,Centro,Arroz 1kg,Alimentos,4,7.67
-2021-01-04,Oeste,Pan de molde,Alimentos,3,13.61
-2021-07-18,Sur,Aceite 1L,Alimentos,2,7.37
-2020-10-22,Oeste,Aceite 1L,Alimentos,1,19.81
-2020-01-13,Este,Leche 1L,Lácteos,11,5.28
-2019-09-13,Este,Arroz 1kg,Alimentos,19,18.35
-2021-08-09,Oeste,Arroz 1kg,Alimentos,4,13.87
-2019-05-18,Sur,Jabón de barra,Limpieza,1,8.98
-2020-05-10,Sur,Detergente,Limpieza,13,7.56
-2019-07-07,Sur,Atún en lata,Alimentos,10,10.68
-2021-01-03,Este,Aceite 1L,Alimentos,5,6.49
-2020-07-16,Centro,Atún en lata,Alimentos,18,1.97
-2020-09-20,Este,Atún en lata,Alimentos,9,19.32
-2019-01-24,Sur,Detergente,Limpieza,6,6.9
-2021-06-07,Sur,Aceite 1L,Alimentos,17,1.15
-2019-01-24,Norte,Arroz 1kg,Alimentos,11,3.18
-2019-01-05,Oeste,Queso por kg,Lácteos,12,12.54
-2020-03-16,Este,Detergente,Limpieza,12,9.53
-2019-10-23,Norte,Leche 1L,Lácteos,5,19.74
-2019-11-28,Oeste,Aceite 1L,Alimentos,7,3.29
-2019-09-20,Centro,Aceite 1L,Alimentos,14,7.64
-2020-03-19,Norte,Detergente,Limpieza,16,2.51
-2019-11-07,Centro,Queso por kg,Lácteos,7,15.07
-2019-09-22,Este,Pan de molde,Alimentos,14,12.03
-2020-08-14,Sur,Arroz 1kg,Alimentos,10,2.7
+2021-08-01,Oeste,Queso por kg,Lácteos,16,11.83
+2021-04-12,Sur,Atún en lata,Alimentos,18,14.07
+2021-12-04,Centro,Queso por kg,Lácteos,5,5.83
+2019-11-04,Este,Aceite 1L,Alimentos,18,11.03
+2020-03-24,Centro,Queso por kg,Lácteos,6,4.7
+2020-05-20,Este,Detergente,Limpieza,12,18.06
+2021-02-15,Norte,Detergente,Limpieza,8,12.78
+2020-08-27,Sur,Atún en lata,Alimentos,16,19.29
+2020-09-02,Este,Atún en lata,Alimentos,8,13.25
+2021-11-23,Centro,Detergente,Limpieza,11,18.66
+2020-04-18,Norte,Detergente,Limpieza,1,16.51
+2020-10-14,Oeste,Atún en lata,Alimentos,19,4.45
+2021-03-12,Oeste,Aceite 1L,Alimentos,17,19.22
+2021-03-08,Norte,Queso por kg,Lácteos,7,12.87
+2019-10-18,Centro,Jabón de barra,Limpieza,16,21.84
+2021-01-20,Norte,Aceite 1L,Alimentos,19,5.69
+2020-08-20,Oeste,Leche 1L,Lácteos,18,7.31
+2021-04-09,Este,Queso por kg,Lácteos,11,13.68
+2021-06-25,Norte,Detergente,Limpieza,15,10.0
+2019-11-05,Oeste,Detergente,Limpieza,18,17.47
+2021-09-17,Centro,Leche 1L,Lácteos,12,14.5
+2020-04-20,Oeste,Arroz 1kg,Alimentos,3,15.68
+2020-04-17,Norte,Arroz 1kg,Alimentos,4,5.91
+2021-02-09,Sur,Arroz 1kg,Alimentos,9,18.3
+2019-11-20,Centro,Detergente,Limpieza,5,15.54
+2019-01-27,Este,Atún en lata,Alimentos,13,1.96
+2020-08-25,Norte,Leche 1L,Lácteos,11,11.97
+2021-02-02,Centro,Aceite 1L,Alimentos,15,6.1
+2019-11-09,Este,Queso por kg,Lácteos,18,3.28
+2020-10-21,Oeste,Aceite 1L,Alimentos,19,2.01
+2021-11-26,Este,Pan de molde,Alimentos,2,1.38
+2020-12-07,Oeste,Jabón de barra,Limpieza,6,27.18
+2019-10-25,Sur,Detergente,Limpieza,11,21.73
+2019-03-16,Este,Leche 1L,Lácteos,17,2.83
+2019-04-10,Este,Leche 1L,Lácteos,9,10.02
+2021-03-16,Centro,Arroz 1kg,Alimentos,4,13.31
+2020-09-16,Oeste,Pan de molde,Alimentos,3,18.89
+2021-05-18,Sur,Aceite 1L,Alimentos,2,19.23
+2020-10-09,Oeste,Aceite 1L,Alimentos,1,16.58
+2020-01-28,Este,Leche 1L,Lácteos,11,13.06
+2021-12-09,Este,Arroz 1kg,Alimentos,19,4.2
+2020-04-22,Oeste,Arroz 1kg,Alimentos,4,19.64
+2020-08-29,Sur,Jabón de barra,Limpieza,1,26.47
+2020-12-25,Sur,Detergente,Limpieza,13,14.63
+2019-05-02,Sur,Atún en lata,Alimentos,10,14.28
+2021-08-23,Este,Aceite 1L,Alimentos,5,19.92
+2021-08-20,Centro,Atún en lata,Alimentos,18,7.91
+2020-04-03,Este,Atún en lata,Alimentos,9,14.13
+2021-01-16,Sur,Detergente,Limpieza,6,15.65
+2021-04-09,Sur,Aceite 1L,Alimentos,17,14.61
+2020-09-06,Norte,Arroz 1kg,Alimentos,11,10.89
+2021-02-17,Oeste,Queso por kg,Lácteos,12,1.26
+2021-08-26,Este,Detergente,Limpieza,12,14.1
+2020-09-19,Norte,Leche 1L,Lácteos,5,5.43
+2020-05-15,Oeste,Aceite 1L,Alimentos,7,12.72
+2020-07-27,Centro,Aceite 1L,Alimentos,14,3.31
+2021-04-21,Norte,Detergente,Limpieza,16,21.57
+2019-03-24,Centro,Queso por kg,Lácteos,7,5.55
+2019-09-08,Este,Pan de molde,Alimentos,14,12.82
+2019-08-16,Sur,Arroz 1kg,Alimentos,10,8.12
+2020-10-06,Oeste,NovaLab Inyectable 634,farmacia,6,42.98
+2020-04-19,Sur,Pulso Spray 678,farmacia,9,71.82
+2021-01-09,Norte,Detergente,Alimentos,5,19.3
+2019-01-08,Centro,BioCare Pomada 101,farmacia,8,33.32
+2019-03-29,Centro,Clinix Analgesico 210,farmacia,8,66.06
+2020-07-07,Norte,Pulso Vitamina 784,farmacia,1,56.38
+2019-07-16,Este,BioCare Jarabe 238,farmacia,5,23.15
+2019-05-04,Sur,NovaLab Jarabe 849,farmacia,7,26.29
+2021-07-01,Norte,Jabón de barra,Alimentos,6,18.06
+2020-12-07,Este,Leche 1L,Alimentos,1,16.29
+2020-08-14,Oeste,MediPlus Vitamina 940,farmacia,9,38.29
+2021-05-18,Norte,Pulso Spray 678,farmacia,6,66.79
+2021-02-05,Oeste,NovaLab Analgesico 622,farmacia,9,19.33
+2021-01-29,Centro,Salud+ Vitamina 887,farmacia,3,13.61
+2021-12-19,Oeste,Salud+ Antiséptico 507,farmacia,3,21.78
+2021-10-02,Este,Farmex Analgesico 999,farmacia,1,74.12
+2020-11-20,Sur,MediPlus Vitamina 940,farmacia,5,45.61
+2020-03-12,Centro,Farmex Vitamina 144,farmacia,6,36.13
+2020-01-05,Centro,Herba Spray 371,farmacia,2,42.33
+2020-05-06,Centro,Genix Pomada 190,farmacia,7,59.41
+2021-11-13,Centro,Clinix Jarabe 189,farmacia,1,54.34
+2020-06-21,Oeste,Genix Suero 953,farmacia,7,30.71
+2020-11-20,Oeste,Atún en lata,Limpieza,9,20.48
+2019-06-03,Este,BioCare Inyectable 442,farmacia,9,66.82
+2020-12-17,Centro,Herba Tableta 773,farmacia,9,41.62
+2021-05-27,Este,BioCare Pomada 101,farmacia,6,26.58
+2020-09-02,Sur,Herba Tableta 773,farmacia,4,35.14
+2021-04-18,Oeste,Vitalis Spray 171,farmacia,1,72.19
+2020-03-24,Este,Leche 1L,Lácteos,9,11.5
+2019-01-14,Este,Atún en lata,Limpieza,5,10.15
+2020-07-28,Oeste,Leche 1L,Limpieza,6,17.47
+2020-04-18,Oeste,Herba Tableta 496,farmacia,3,70.73
+2020-03-22,Sur,Pulso Antiséptico 500,farmacia,8,55.11
+2021-05-24,Sur,Pulso Spray 678,farmacia,5,31.9
+2020-04-17,Oeste,NovaLab Spray 116,farmacia,6,32.4
+2021-04-13,Este,BioCare Pomada 101,farmacia,3,59.51
+2021-06-09,Centro,Queso por kg,Lácteos,10,12.76
+2019-07-22,Este,Herba Spray 371,farmacia,10,24.61
+2021-06-08,Este,Detergente,Lácteos,8,9.45
+2019-05-18,Oeste,Salud+ Antiséptico 507,farmacia,6,20.17
+2019-11-15,Centro,Genix Suero 953,farmacia,4,52.75
+2021-12-16,Este,NovaLab Suero 448,farmacia,1,57.0
+2019-04-20,Centro,MediPlus Vitamina 940,farmacia,5,14.43
+2019-02-18,Oeste,NovaLab Suero 448,farmacia,7,68.87
+2020-02-23,Oeste,Farmex Vitamina 144,farmacia,5,30.99
+2019-11-28,Este,Clinix Jarabe 540,farmacia,7,20.28
+2021-07-16,Sur,MediPlus Vitamina 940,farmacia,2,47.86
+2020-08-01,Oeste,Clinix Jarabe 540,farmacia,8,13.07
+2020-03-12,Centro,Genix Suero 953,farmacia,10,9.11
+2021-03-17,Sur,Pulso Vitamina 784,farmacia,10,51.9
+2019-12-07,Norte,NovaLab Jarabe 849,farmacia,1,25.87
+2020-10-18,Sur,Atún en lata,Lácteos,8,11.51
+2019-07-06,Norte,NovaLab Analgesico 622,farmacia,1,44.8
+2021-02-16,Centro,Pulso Antiséptico 500,farmacia,6,61.37
+2019-11-17,Oeste,BioCare Pomada 101,farmacia,1,63.01
+2020-04-05,Este,Farmex Vitamina 144,farmacia,10,16.27
+2020-07-05,Centro,Queso por kg,Lácteos,7,12.65
+2020-03-09,Norte,Jabón de barra,Limpieza,5,19.34
+2021-07-18,Norte,Salud+ Antiséptico 507,farmacia,7,22.28
+2021-09-08,Centro,Queso por kg,Alimentos,3,1.35
+2019-02-22,Oeste,NovaLab Jarabe 849,farmacia,3,22.61
+2019-02-10,Este,BioCare Inyectable 442,farmacia,5,62.46
+2020-09-17,Centro,Pulso Vitamina 784,farmacia,5,44.86
+2021-04-01,Centro,Arroz 1kg,Alimentos,10,13.43
+2021-12-14,Centro,NovaLab Jarabe 849,farmacia,9,48.21
+2020-02-20,Oeste,Jabón de barra,Lácteos,7,12.98
+2020-09-06,Centro,Genix Suero 953,farmacia,1,34.85
+2021-12-25,Oeste,Vitalis Suero 801,farmacia,6,37.65
+2021-05-18,Centro,Clinix Jarabe 189,farmacia,4,22.15
+2019-05-19,Norte,Aceite 1L,Alimentos,4,14.47
+2020-02-13,Este,Atún en lata,Alimentos,7,10.03
+2021-10-09,Norte,Herba Tableta 496,farmacia,1,9.59
+2021-09-01,Centro,Farmex Analgesico 999,farmacia,5,13.03
+2019-12-16,Este,BioCare Tableta 229,farmacia,5,13.71
+2020-11-06,Norte,Clinix Jarabe 540,farmacia,9,56.87
+2021-04-22,Norte,NovaLab Inyectable 634,farmacia,8,22.6
+2020-06-22,Centro,BioCare Pomada 101,farmacia,7,34.16
+2021-08-04,Norte,BioCare Jarabe 238,farmacia,2,27.23
+2021-02-09,Oeste,BioCare Jarabe 843,farmacia,5,74.31
+2020-08-01,Norte,Arroz 1kg,Limpieza,2,2.37
+2021-10-21,Centro,Salud+ Vitamina 887,farmacia,10,32.52
+2020-11-06,Centro,BioCare Inyectable 442,farmacia,5,42.6
+2020-11-23,Oeste,MediPlus Vitamina 940,farmacia,2,28.37
+2020-01-28,Centro,Arroz 1kg,Lácteos,6,8.74
+2021-09-17,Sur,Pulso Antiséptico 441,farmacia,3,9.89
+2019-01-22,Este,NovaLab Analgesico 622,farmacia,1,35.74
+2020-07-28,Este,Leche 1L,Limpieza,1,28.61
+2019-05-23,Norte,BioCare Pomada 101,farmacia,7,57.39
+2021-07-06,Norte,Pulso Spray 678,farmacia,1,8.74
+2019-03-24,Sur,Pulso Vitamina 784,farmacia,2,70.12
+2020-08-25,Norte,Aceite 1L,Limpieza,8,22.42
+2019-07-08,Oeste,Pulso Antiséptico 441,farmacia,4,67.0
+2019-07-16,Oeste,Herba Spray 371,farmacia,3,31.84
+2021-12-17,Norte,Queso por kg,Lácteos,6,4.42
+2021-05-01,Este,Salud+ Vitamina 887,farmacia,1,39.48
+2020-09-02,Sur,Jabón de barra,Alimentos,4,13.88
+2019-06-25,Centro,Clinix Jarabe 189,farmacia,1,14.79
+2020-08-14,Oeste,Pulso Antiséptico 500,farmacia,7,38.0
+2020-07-05,Sur,Herba Tableta 496,farmacia,6,32.5
+2021-01-13,Norte,Salud+ Antiséptico 507,farmacia,10,16.82
+2019-09-24,Este,Clinix Jarabe 540,farmacia,1,8.09
+2020-06-03,Oeste,Herba Tableta 773,farmacia,5,11.69
+2019-07-29,Este,NovaLab Suero 448,farmacia,6,71.12
+2019-02-15,Centro,Arroz 1kg,Alimentos,9,11.23
+2021-02-23,Sur,Jabón de barra,Lácteos,4,12.55
+2021-03-08,Centro,Vitalis Suero 801,farmacia,5,56.36
+2021-10-18,Norte,Herba Tableta 496,farmacia,3,13.38
+2019-12-07,Norte,Vitalis Spray 171,farmacia,3,15.07
+2021-04-20,Sur,NovaLab Inyectable 634,farmacia,2,52.69
+2021-06-20,Este,Arroz 1kg,Alimentos,2,11.75
+2019-03-26,Norte,Jabón de barra,Lácteos,1,10.66
+2021-08-02,Norte,NovaLab Inyectable 634,farmacia,5,41.35
+2021-12-11,Oeste,Vitalis Spray 171,farmacia,9,49.53
+2021-11-20,Oeste,Pulso Antiséptico 500,farmacia,6,13.53
+2020-04-03,Sur,BioCare Tableta 229,farmacia,4,53.14
+2021-10-21,Norte,Pan de molde,Alimentos,2,15.52
+2020-11-26,Norte,Genix Suero 953,farmacia,6,36.77
+2021-04-12,Centro,NovaLab Suero 448,farmacia,7,48.57
+2021-08-20,Oeste,Pulso Antiséptico 441,farmacia,1,52.55
+2020-11-20,Centro,Clinix Jarabe 189,farmacia,3,72.62
+2019-08-29,Oeste,Salud+ Antiséptico 507,farmacia,7,6.59
+2021-05-19,Norte,Jabón de barra,Alimentos,2,15.01
+2021-05-24,Oeste,Pulso Spray 678,farmacia,10,62.61
+2019-04-01,Norte,Pulso Antiséptico 500,farmacia,5,74.21
+2020-04-27,Sur,Herba Tableta 496,farmacia,6,27.76
+2019-12-25,Este,Clinix Analgesico 210,farmacia,5,20.05
+2020-05-27,Sur,BioCare Jarabe 238,farmacia,4,58.39
+2019-03-25,Sur,Vitalis Suero 801,farmacia,3,61.1
+2020-08-01,Oeste,Detergente,Limpieza,4,2.9
+2020-07-28,Norte,Jabón de barra,Lácteos,10,11.83
+2020-10-18,Norte,Pulso Spray 678,farmacia,7,52.33
+2021-07-16,Sur,NovaLab Inyectable 634,farmacia,4,53.96
+2021-01-20,Centro,Aceite 1L,Limpieza,5,15.93
+2020-05-22,Oeste,Pulso Antiséptico 441,farmacia,1,19.21
+2020-12-07,Oeste,BioCare Inyectable 442,farmacia,1,67.81
+2021-10-10,Este,NovaLab Analgesico 622,farmacia,7,27.54
+2019-04-04,Norte,NovaLab Suero 448,farmacia,7,39.21
+2020-10-21,Oeste,Arroz 1kg,Limpieza,1,5.65
+2021-05-05,Sur,Clinix Jarabe 189,farmacia,10,36.1
+2020-02-12,Oeste,Herba Tableta 773,farmacia,5,7.69
+2019-02-23,Norte,NovaLab Suero 448,farmacia,9,39.95
+2020-03-23,Centro,Herba Tableta 496,farmacia,1,31.88
+2021-09-17,Centro,Clinix Analgesico 210,farmacia,10,20.82
+2021-09-16,Este,Arroz 1kg,Lácteos,4,11.02
+2020-04-03,Oeste,Herba Tableta 496,farmacia,1,64.77
+2020-12-27,Oeste,Pulso Vitamina 784,farmacia,5,74.81
+2020-01-26,Este,NovaLab Spray 116,farmacia,6,10.6
+2020-01-14,Centro,Aceite 1L,Limpieza,1,28.62
+2021-03-10,Este,BioCare Jarabe 843,farmacia,7,47.08
+2021-07-29,Este,Arroz 1kg,Alimentos,10,13.43
+2021-09-08,Sur,NovaLab Spray 116,farmacia,3,71.91
+2019-03-01,Este,Arroz 1kg,Alimentos,9,18.04
+2020-01-13,Sur,BioCare Inyectable 442,farmacia,6,73.12
+2019-01-08,Norte,Salud+ Antiséptico 507,farmacia,5,32.92
+2019-12-05,Norte,NovaLab Analgesico 622,farmacia,4,31.23
+2021-03-29,Este,Detergente,Lácteos,9,12.56
+2021-08-01,Oeste,Clinix Analgesico 210,farmacia,1,64.19
+2021-02-17,Norte,Vitalis Jarabe 649,farmacia,7,69.29
+2020-11-21,Norte,NovaLab Suero 448,farmacia,4,33.29
+2020-10-10,Norte,NovaLab Suero 448,farmacia,9,20.6
+2019-12-16,Este,NovaLab Analgesico 622,farmacia,5,48.97
+2019-08-20,Centro,Herba Tableta 773,farmacia,8,71.05
+2019-01-09,Sur,Vitalis Suero 801,farmacia,7,13.5
+2019-07-07,Norte,Vitalis Suero 801,farmacia,2,74.47
+2020-10-18,Este,Genix Suero 953,farmacia,1,35.74
+2021-01-08,Sur,Salud+ Vitamina 887,farmacia,6,53.19
+2021-09-24,Centro,Herba Tableta 496,farmacia,9,33.14
+2021-03-24,Este,Genix Pomada 190,farmacia,6,29.97
+2019-02-23,Oeste,Aceite 1L,Alimentos,3,17.26
+2019-12-09,Sur,BioCare Jarabe 238,farmacia,8,19.13
+2021-01-05,Norte,Queso por kg,Limpieza,3,1.96
+2019-03-09,Norte,Salud+ Vitamina 887,farmacia,5,70.73
+2020-02-09,Este,Salud+ Vitamina 887,farmacia,1,53.95
+2021-04-29,Este,Clinix Jarabe 189,farmacia,1,70.14
+2020-06-25,Este,Herba Tableta 773,farmacia,7,20.88
+2020-01-05,Sur,Jabón de barra,Lácteos,3,1.6
+2020-12-19,Norte,Herba Spray 371,farmacia,7,27.42
+2020-05-02,Este,Pan de molde,Alimentos,2,11.02
+2020-12-03,Centro,MediPlus Vitamina 940,farmacia,4,32.6
+2021-04-20,Sur,Pan de molde,Limpieza,3,27.27
+2021-06-19,Sur,Jabón de barra,Alimentos,8,12.78
+2021-12-15,Oeste,Vitalis Suero 801,farmacia,1,49.07
+2019-08-14,Centro,Arroz 1kg,Limpieza,9,20.83
+2020-06-22,Centro,Herba Spray 371,farmacia,6,16.01
+2019-10-11,Centro,NovaLab Suero 448,farmacia,1,13.29
+2021-04-26,Este,Herba Tableta 773,farmacia,1,60.08
+2021-04-24,Este,Farmex Vitamina 144,farmacia,5,43.21
+2020-03-08,Este,NovaLab Analgesico 622,farmacia,4,18.44
+2021-10-09,Oeste,Aceite 1L,Limpieza,8,22.36
+2021-07-28,Oeste,Pulso Antiséptico 441,farmacia,4,25.66
+2021-05-18,Sur,Herba Tableta 496,farmacia,5,69.81
+2021-10-06,Centro,Vitalis Jarabe 649,farmacia,8,36.19
+2020-02-18,Oeste,Herba Spray 371,farmacia,8,33.73
+2021-03-03,Sur,NovaLab Jarabe 849,farmacia,5,25.55
+2021-08-11,Oeste,Pulso Spray 678,farmacia,2,74.8
+2019-09-02,Centro,Clinix Jarabe 540,farmacia,10,62.96
+2020-02-15,Este,BioCare Inyectable 442,farmacia,4,25.75
+2020-10-23,Oeste,Vitalis Jarabe 649,farmacia,7,67.8
+2021-03-05,Este,Genix Suero 953,farmacia,10,70.5
+2020-12-12,Oeste,Farmex Analgesico 999,farmacia,3,42.19
+2021-09-17,Sur,Farmex Analgesico 999,farmacia,7,22.46
+2020-01-14,Norte,Leche 1L,Alimentos,7,16.7
+2020-08-27,Sur,NovaLab Inyectable 634,farmacia,3,63.58
+2020-06-10,Este,Salud+ Vitamina 887,farmacia,10,40.86
+2021-02-28,Oeste,BioCare Tableta 229,farmacia,3,39.7
+2021-02-11,Sur,NovaLab Jarabe 849,farmacia,4,12.35
+2021-12-07,Norte,BioCare Jarabe 238,farmacia,4,27.84
+2020-09-17,Este,Detergente,Limpieza,4,14.67
+2021-05-15,Centro,Atún en lata,Lácteos,3,10.02
+2020-06-25,Norte,Vitalis Jarabe 649,farmacia,1,61.12
+2021-05-14,Centro,Aceite 1L,Limpieza,4,22.14
+2019-04-19,Sur,Pulso Vitamina 784,farmacia,3,26.69
+2019-02-09,Sur,Herba Tableta 496,farmacia,1,26.98
+2020-09-14,Este,Farmex Analgesico 999,farmacia,2,35.5
+2020-05-27,Norte,Clinix Analgesico 210,farmacia,5,65.57
+2019-09-15,Sur,Clinix Jarabe 189,farmacia,6,29.92
+2019-02-13,Este,Atún en lata,Limpieza,8,13.62
+2019-05-09,Norte,Vitalis Suero 801,farmacia,3,67.26
+2020-06-17,Sur,Clinix Analgesico 210,farmacia,4,55.84
+2020-06-23,Centro,Genix Suero 953,farmacia,3,67.56
+2021-05-08,Sur,Genix Pomada 190,farmacia,4,48.27
+2021-05-16,Centro,Vitalis Jarabe 649,farmacia,8,73.96
+2021-12-13,Centro,Pan de molde,Lácteos,5,1.75
+2019-04-12,Norte,Atún en lata,Alimentos,7,7.28
+2020-11-09,Sur,BioCare Pomada 101,farmacia,7,11.42
+2021-11-20,Sur,Jabón de barra,Alimentos,5,14.93
+2019-03-24,Oeste,NovaLab Jarabe 849,farmacia,3,33.33
+2019-03-08,Centro,BioCare Jarabe 238,farmacia,2,32.99
+2021-09-24,Norte,BioCare Tableta 229,farmacia,2,55.38
+2021-08-20,Este,Clinix Jarabe 540,farmacia,2,42.54
+2021-04-03,Centro,BioCare Tableta 229,farmacia,8,11.05
+2021-03-07,Norte,Clinix Analgesico 210,farmacia,6,59.9
+2020-08-10,Sur,Pulso Vitamina 784,farmacia,2,21.93
+2021-12-14,Este,NovaLab Analgesico 622,farmacia,6,28.59
+2021-05-25,Este,BioCare Pomada 101,farmacia,5,18.55
+2020-01-20,Sur,BioCare Inyectable 442,farmacia,2,18.26
+2020-05-09,Este,Salud+ Vitamina 887,farmacia,8,26.31
+2019-09-21,Norte,Clinix Analgesico 210,farmacia,4,67.03
+2021-09-24,Este,Herba Spray 371,farmacia,8,71.31
+2020-08-01,Oeste,Herba Tableta 496,farmacia,7,14.47
+2020-10-18,Oeste,Vitalis Jarabe 649,farmacia,10,27.43
+2020-05-18,Sur,Pulso Spray 678,farmacia,7,9.84
+2020-08-16,Centro,Queso por kg,Lácteos,4,6.72
+2020-01-09,Norte,BioCare Pomada 101,farmacia,10,43.74
+2021-10-13,Norte,Salud+ Vitamina 887,farmacia,10,58.37
+2021-12-25,Norte,Queso por kg,Lácteos,8,9.98
+2019-02-17,Sur,Detergente,Limpieza,1,28.84
+2020-09-17,Sur,NovaLab Jarabe 849,farmacia,8,6.31
+2019-12-23,Este,Vitalis Jarabe 649,farmacia,9,57.59
+2020-06-05,Este,NovaLab Jarabe 849,farmacia,9,31.41
+2019-07-28,Centro,Aceite 1L,Alimentos,15,14.5
+2020-10-21,Norte,Arroz 1kg,Alimentos,1,10.66
+2021-06-13,Sur,Atún en lata,Alimentos,18,17.27
+2019-05-09,Este,Pan de molde,Alimentos,11,10.65
+2020-06-11,Oeste,Aceite 1L,Alimentos,3,13.88
+2021-01-07,Centro,Arroz 1kg,Alimentos,15,16.59
+2020-12-07,Norte,Atún en lata,Alimentos,16,19.3
+2019-02-06,Sur,Pan de molde,Alimentos,8,13.28
+2021-12-21,Este,Aceite 1L,Alimentos,5,8.81
+2021-11-20,Oeste,Arroz 1kg,Alimentos,16,3.67
+2021-07-06,Centro,Atún en lata,Alimentos,17,14.48
+2019-10-02,Norte,Pan de molde,Alimentos,15,8.12
+2019-09-02,Sur,Aceite 1L,Alimentos,11,15.65
+2020-03-05,Este,Arroz 1kg,Alimentos,11,1.8
+2021-03-08,Oeste,Atún en lata,Alimentos,17,11.23
+2021-09-22,Centro,Pan de molde,Alimentos,11,13.31
+2021-07-26,Norte,Aceite 1L,Alimentos,8,7.91
+2019-11-23,Sur,Arroz 1kg,Alimentos,6,14.13
+2020-07-16,Este,Atún en lata,Alimentos,14,15.65
+2021-08-16,Oeste,Pan de molde,Alimentos,15,14.61
+2021-08-23,Centro,Aceite 1L,Alimentos,7,10.89
+2019-07-12,Norte,Arroz 1kg,Alimentos,1,1.26
+2020-11-19,Sur,Atún en lata,Alimentos,2,14.1
+2020-07-23,Este,Pan de molde,Alimentos,10,5.43
+2020-03-05,Oeste,Aceite 1L,Alimentos,3,12.72
+2020-10-23,Centro,Arroz 1kg,Alimentos,19,3.31
+2021-12-16,Norte,Atún en lata,Alimentos,11,21.57
+2020-11-04,Sur,Pan de molde,Alimentos,15,5.55
+2021-11-20,Este,Aceite 1L,Alimentos,11,12.82
+2020-03-22,Oeste,Arroz 1kg,Alimentos,7,8.12
+2020-01-20,Centro,Atún en lata,Alimentos,19,19.3
+2019-04-20,Norte,Pan de molde,Alimentos,16,18.06
+2021-05-18,Sur,Aceite 1L,Alimentos,17,16.29
+2021-04-18,Este,Arroz 1kg,Alimentos,1,1.35
+2019-06-25,Oeste,Atún en lata,Alimentos,13,13.43
+2021-08-01,Centro,Pan de molde,Alimentos,6,11.23
+2021-11-09,Norte,Aceite 1L,Alimentos,9,14.47
+2020-01-08,Sur,Arroz 1kg,Alimentos,16,10.03
+2020-07-16,Este,Atún en lata,Alimentos,1,13.43
+2020-01-08,Oeste,Pan de molde,Alimentos,1,18.04
+2019-08-20,Centro,Aceite 1L,Alimentos,4,13.43
+2020-08-12,Norte,Arroz 1kg,Alimentos,7,7.28
+2020-09-08,Sur,Atún en lata,Alimentos,5,14.93
+2021-06-08,Este,Pan de molde,Alimentos,1,11.02
+2020-08-05,Oeste,Aceite 1L,Alimentos,10,1.35
+2020-02-14,Centro,Arroz 1kg,Alimentos,6,11.23
+2020-06-08,Norte,Atún en lata,Alimentos,10,14.47
+2019-01-29,Sur,Pan de molde,Alimentos,17,10.03
+2021-04-16,Este,Aceite 1L,Alimentos,3,13.43
+2019-02-16,Oeste,Arroz 1kg,Alimentos,10,18.04
+2019-08-11,Centro,Atún en lata,Alimentos,4,13.43
+2019-06-15,Norte,Pan de molde,Alimentos,7,7.28
+2020-07-28,Sur,Aceite 1L,Alimentos,5,14.93
+2019-01-01,Este,Arroz 1kg,Alimentos,1,11.02
+2020-03-26,Oeste,Atún en lata,Alimentos,10,1.35
+2021-10-18,Centro,Pan de molde,Alimentos,6,11.23
+2019-12-14,Norte,Aceite 1L,Alimentos,10,14.47
+2020-03-12,Sur,Arroz 1kg,Alimentos,17,10.03
+2020-07-28,Este,Atún en lata,Alimentos,3,13.43
+2021-08-20,Oeste,Pan de molde,Alimentos,10,18.04
+2020-02-09,Centro,Aceite 1L,Alimentos,4,13.43
+2020-03-18,Norte,Arroz 1kg,Alimentos,7,7.28
+2019-02-01,Sur,Atún en lata,Alimentos,5,14.93
+2020-11-09,Este,Pan de molde,Alimentos,1,11.02
+2019-05-24,Oeste,Aceite 1L,Alimentos,10,1.35
+2021-08-16,Centro,Arroz 1kg,Alimentos,6,11.23
+2021-03-24,Norte,Atún en lata,Alimentos,10,14.47
+2021-11-20,Sur,Pan de molde,Alimentos,17,10.03
+2020-07-06,Este,Aceite 1L,Alimentos,3,13.43
+2020-01-24,Oeste,Arroz 1kg,Alimentos,10,18.04
+2020-06-25,Centro,Atún en lata,Alimentos,4,13.43
+2021-11-29,Norte,Pan de molde,Alimentos,7,7.28
+2021-09-08,Sur,Aceite 1L,Alimentos,5,14.93
+2020-03-26,Este,Arroz 1kg,Alimentos,1,11.02
+2021-12-09,Oeste,Atún en lata,Alimentos,10,1.35
+2019-01-16,Centro,Pan de molde,Alimentos,6,11.23
+2019-05-18,Norte,Aceite 1L,Alimentos,10,14.47
+2019-07-25,Sur,Arroz 1kg,Alimentos,17,10.03
+2021-11-05,Este,Atún en lata,Alimentos,3,13.43
+2020-10-18,Oeste,Pan de molde,Alimentos,10,18.04
+2020-10-15,Centro,Aceite 1L,Alimentos,4,13.43
+2020-08-01,Norte,Arroz 1kg,Alimentos,7,7.28
+2020-09-02,Sur,Atún en lata,Alimentos,5,14.93
+2019-12-14,Este,Pan de molde,Alimentos,1,11.02
+2021-08-16,Oeste,Aceite 1L,Alimentos,10,1.35
+2019-11-18,Centro,Arroz 1kg,Alimentos,6,11.23
+2020-10-11,Norte,Atún en lata,Alimentos,10,14.47
+2020-08-10,Sur,Pan de molde,Alimentos,17,10.03
+2020-08-01,Este,Aceite 1L,Alimentos,3,13.43
+2020-11-20,Oeste,Arroz 1kg,Alimentos,10,18.04
+2021-11-02,Centro,Atún en lata,Alimentos,4,13.43
+2020-10-16,Norte,Pan de molde,Alimentos,7,7.28
+2021-07-27,Sur,Aceite 1L,Alimentos,5,14.93
+2019-08-06,Este,Arroz 1kg,Alimentos,1,11.02
+2019-09-24,Oeste,Atún en lata,Alimentos,10,1.35
+2021-01-20,Centro,Pan de molde,Alimentos,6,11.23
+2021-07-29,Norte,Aceite 1L,Alimentos,10,14.47
+2020-06-11,Sur,Arroz 1kg,Alimentos,17,10.03
+2020-04-09,Este,Atún en lata,Alimentos,3,13.43
+2019-12-07,Oeste,Pan de molde,Alimentos,10,18.04
+2021-03-01,Centro,Aceite 1L,Alimentos,4,13.43
+2020-11-04,Norte,Arroz 1kg,Alimentos,7,7.28
+2021-05-18,Sur,Atún en lata,Alimentos,5,14.93
+2019-12-04,Este,Pan de molde,Alimentos,1,11.02
+2019-05-04,Oeste,Aceite 1L,Alimentos,10,1.35
+2021-07-27,Centro,Arroz 1kg,Alimentos,6,11.23
+2020-11-16,Norte,Atún en lata,Alimentos,10,14.47
+2019-11-02,Sur,Pan de molde,Alimentos,17,10.03
+2021-04-12,Este,Aceite 1L,Alimentos,3,13.43
+2019-04-08,Oeste,Arroz 1kg,Alimentos,10,18.04
+2021-12-25,Centro,Leche 1L,Lácteos,12,14.5
+2019-09-23,Norte,Queso por kg,Lácteos,7,12.87
+2021-03-24,Sur,Leche 1L,Lácteos,18,7.31
+2020-02-23,Este,Queso por kg,Lácteos,11,13.68
+2021-11-20,Oeste,Leche 1L,Lácteos,15,10.0
+2019-02-12,Centro,Queso por kg,Lácteos,18,17.47
+2021-03-12,Norte,Leche 1L,Lácteos,12,14.5
+2020-07-07,Sur,Queso por kg,Lácteos,4,11.02
+2020-05-12,Este,Leche 1L,Lácteos,1,28.61
+2021-05-24,Oeste,Queso por kg,Lácteos,10,11.83
+2019-05-06,Centro,Leche 1L,Lácteos,1,1.6
+2021-09-02,Norte,Queso por kg,Lácteos,10,1.75
+2021-08-01,Sur,Leche 1L,Lácteos,3,10.02
+2019-07-07,Este,Queso por kg,Lácteos,10,12.98
+2020-11-09,Oeste,Leche 1L,Lácteos,8,9.45
+2020-05-27,Centro,Queso por kg,Lácteos,8,11.51
+2020-11-16,Norte,Leche 1L,Lácteos,7,12.65
+2021-02-13,Sur,Queso por kg,Lácteos,4,11.02
+2021-04-01,Este,Leche 1L,Lácteos,6,8.74
+2019-11-26,Oeste,Queso por kg,Lácteos,4,12.55
+2021-03-22,Centro,Leche 1L,Lácteos,1,10.66
+2020-01-20,Norte,Queso por kg,Lácteos,4,11.02
+2020-11-11,Sur,Leche 1L,Lácteos,9,12.56
+2020-03-16,Este,Queso por kg,Lácteos,3,1.6
+2020-07-16,Oeste,Leche 1L,Lácteos,10,1.75
+2021-01-08,Centro,Queso por kg,Lácteos,3,10.02
+2021-09-09,Norte,Leche 1L,Lácteos,8,9.45
+2020-09-02,Sur,Queso por kg,Lácteos,8,11.51
+2019-01-23,Este,Leche 1L,Lácteos,7,12.65
+2021-07-01,Oeste,Queso por kg,Lácteos,4,11.02
+2020-08-28,Centro,Leche 1L,Lácteos,6,8.74
+2021-03-09,Norte,Queso por kg,Lácteos,4,12.55
+2020-02-13,Sur,Leche 1L,Lácteos,1,10.66
+2019-09-17,Este,Queso por kg,Lácteos,4,11.02
+2020-11-11,Oeste,Leche 1L,Lácteos,9,12.56
+2021-06-08,Centro,Queso por kg,Lácteos,3,1.6
+2021-12-14,Norte,Leche 1L,Lácteos,10,1.75
+2021-02-09,Sur,Queso por kg,Lácteos,3,10.02
+2021-04-20,Este,Leche 1L,Lácteos,8,9.45
+2021-01-10,Oeste,Queso por kg,Lácteos,8,11.51
+2019-06-11,Centro,Leche 1L,Lácteos,7,12.65
+2020-11-23,Norte,Queso por kg,Lácteos,4,11.02
+2020-07-21,Sur,Leche 1L,Lácteos,6,8.74
+2021-10-14,Este,Queso por kg,Lácteos,4,12.55
+2019-11-19,Oeste,Leche 1L,Lácteos,1,10.66
+2020-10-18,Centro,Queso por kg,Lácteos,4,11.02
+2020-12-07,Norte,Leche 1L,Lácteos,9,12.56
+2020-07-28,Sur,Queso por kg,Lácteos,3,1.6
+2020-04-24,Este,Leche 1L,Lácteos,10,1.75
+2019-03-10,Oeste,Queso por kg,Lácteos,3,10.02
+2021-01-28,Centro,Leche 1L,Lácteos,8,9.45
+2019-11-20,Norte,Queso por kg,Lácteos,8,11.51
+2019-05-18,Sur,Leche 1L,Lácteos,7,12.65
+2021-02-15,Este,Queso por kg,Lácteos,4,11.02
+2019-11-28,Oeste,Leche 1L,Lácteos,6,8.74
+2021-09-06,Centro,Queso por kg,Lácteos,4,12.55
+2020-07-06,Norte,Leche 1L,Lácteos,1,10.66
+2021-08-01,Sur,Queso por kg,Lácteos,4,11.02
+2019-05-04,Este,Leche 1L,Lácteos,9,12.56
+2019-09-24,Oeste,Queso por kg,Lácteos,3,1.6
+2021-08-20,Centro,Leche 1L,Lácteos,10,1.75
+2019-12-09,Norte,Queso por kg,Lácteos,3,10.02
+2020-05-18,Sur,Leche 1L,Lácteos,8,9.45
+2021-06-25,Este,Queso por kg,Lácteos,8,11.51
+2021-05-18,Oeste,Leche 1L,Lácteos,7,12.65
+2019-08-29,Centro,Queso por kg,Lácteos,4,11.02
+2021-02-18,Norte,Leche 1L,Lácteos,6,8.74
+2019-07-29,Sur,Queso por kg,Lácteos,4,12.55
+2019-04-03,Este,Leche 1L,Lácteos,1,10.66
+2021-12-07,Oeste,Queso por kg,Lácteos,4,11.02
+2021-06-03,Centro,Leche 1L,Lácteos,9,12.56
+2021-11-23,Norte,Queso por kg,Lácteos,3,1.6
+2020-09-02,Sur,Leche 1L,Lácteos,10,1.75
+2020-06-12,Este,Queso por kg,Lácteos,3,10.02
+2021-02-05,Oeste,Leche 1L,Lácteos,8,9.45
+2020-05-23,Centro,Queso por kg,Lácteos,8,11.51
+2019-02-23,Norte,Leche 1L,Lácteos,7,12.65
+2021-11-09,Sur,Queso por kg,Lácteos,4,11.02
+2019-08-01,Este,Leche 1L,Lácteos,6,8.74
+2019-07-16,Oeste,Queso por kg,Lácteos,4,12.55
+2020-09-21,Centro,Leche 1L,Lácteos,1,10.66
+2019-12-16,Norte,Queso por kg,Lácteos,4,11.02
+2021-08-16,Sur,Leche 1L,Lácteos,9,12.56
+2021-05-12,Este,Queso por kg,Lácteos,3,1.6
+2021-09-24,Oeste,Leche 1L,Lácteos,10,1.75
+2019-10-25,Centro,Queso por kg,Lácteos,3,10.02
+2020-03-23,Norte,Leche 1L,Lácteos,8,9.45
+2021-08-10,Sur,Queso por kg,Lácteos,8,11.51
+2020-05-23,Este,Leche 1L,Lácteos,7,12.65
+2019-05-15,Oeste,Queso por kg,Lácteos,4,11.02
+2020-02-18,Centro,Leche 1L,Lácteos,6,8.74
+2020-05-27,Norte,Queso por kg,Lácteos,4,12.55
+2019-03-12,Sur,Leche 1L,Lácteos,1,10.66
+2020-04-20,Este,Queso por kg,Lácteos,4,11.02
+2020-11-20,Oeste,Leche 1L,Lácteos,9,12.56
+2019-01-20,Centro,Queso por kg,Lácteos,3,1.6
+2020-09-24,Norte,Leche 1L,Lácteos,10,1.75
+2019-05-15,Sur,Queso por kg,Lácteos,3,10.02
+2020-03-24,Este,Leche 1L,Lácteos,8,9.45
+2021-03-24,Oeste,Queso por kg,Lácteos,8,11.51
+2021-12-07,Centro,Leche 1L,Lácteos,7,12.65
+2021-07-07,Norte,Queso por kg,Lácteos,4,11.02
+2021-05-12,Sur,Leche 1L,Lácteos,6,8.74
+2021-09-15,Este,Queso por kg,Lácteos,4,12.55
+2019-12-16,Oeste,Leche 1L,Lácteos,1,10.66
+2021-03-24,Centro,Detergente,Limpieza,12,18.06
+2021-10-18,Norte,Jabón de barra,Limpieza,8,12.78
+2020-10-27,Sur,Detergente,Limpieza,18,17.27
+2021-12-25,Este,Jabón de barra,Limpieza,11,10.65
+2019-01-09,Oeste,Detergente,Limpieza,3,13.88
+2021-08-16,Centro,Jabón de barra,Limpieza,15,16.59
+2019-09-02,Norte,Detergente,Limpieza,16,19.3
+2020-03-12,Sur,Jabón de barra,Limpieza,8,13.28
+2019-01-02,Este,Detergente,Limpieza,5,8.81
+2021-03-12,Oeste,Jabón de barra,Limpieza,16,3.67
+2021-08-01,Centro,Detergente,Limpieza,17,14.48
+2019-03-01,Norte,Jabón de barra,Limpieza,15,8.12
+2021-07-16,Sur,Detergente,Limpieza,11,15.65
+2021-05-04,Este,Jabón de barra,Limpieza,11,1.8
+2020-05-22,Oeste,Detergente,Limpieza,17,11.23
+2021-09-08,Centro,Jabón de barra,Limpieza,11,13.31
+2021-09-17,Norte,Detergente,Limpieza,8,7.91
+2020-09-02,Sur,Jabón de barra,Limpieza,6,14.13
+2019-07-28,Este,Detergente,Limpieza,14,15.65
+2019-09-15,Oeste,Jabón de barra,Limpieza,15,14.61
+2021-03-12,Centro,Detergente,Limpieza,7,10.89
+2021-05-18,Norte,Jabón de barra,Limpieza,1,1.26
+2020-05-18,Sur,Detergente,Limpieza,2,14.1
+2021-12-28,Este,Jabón de barra,Limpieza,10,5.43
+2019-12-07,Oeste,Detergente,Limpieza,3,12.72
+2019-06-25,Centro,Jabón de barra,Limpieza,19,3.31
+2021-04-03,Norte,Detergente,Limpieza,11,21.57
+2021-03-17,Sur,Jabón de barra,Limpieza,15,5.55
+2020-09-24,Este,Detergente,Limpieza,11,12.82
+2021-07-16,Oeste,Jabón de barra,Limpieza,7,8.12
+2020-10-18,Centro,Detergente,Limpieza,19,19.3
+2020-02-18,Norte,Jabón de barra,Limpieza,16,18.06
+2020-09-16,Sur,Detergente,Limpieza,17,16.29
+2019-03-01,Este,Jabón de barra,Limpieza,1,1.35
+2021-01-28,Oeste,Detergente,Limpieza,13,13.43
+2020-03-09,Centro,Jabón de barra,Limpieza,6,11.23
+2020-05-09,Norte,Detergente,Limpieza,9,14.47
+2021-04-12,Sur,Jabón de barra,Limpieza,16,10.03
+2021-11-20,Este,Detergente,Limpieza,1,13.43
+2021-01-20,Oeste,Jabón de barra,Limpieza,1,18.04
+2021-12-09,Centro,Detergente,Limpieza,4,13.43
+2019-10-18,Norte,Jabón de barra,Limpieza,7,7.28
+2021-05-24,Sur,Detergente,Limpieza,5,14.93
+2021-01-28,Este,Jabón de barra,Limpieza,1,11.02
+2020-08-16,Oeste,Detergente,Limpieza,10,1.35
+2021-05-01,Centro,Jabón de barra,Limpieza,6,11.23
+2021-07-16,Norte,Detergente,Limpieza,10,14.47
+2021-05-23,Sur,Jabón de barra,Limpieza,17,10.03
+2021-04-18,Este,Detergente,Limpieza,3,13.43
+2021-09-24,Oeste,Jabón de barra,Limpieza,10,18.04
+2020-01-08,Centro,Detergente,Limpieza,4,13.43
+2019-12-05,Norte,Jabón de barra,Limpieza,7,7.28
+2020-06-11,Sur,Detergente,Limpieza,5,14.93
+2019-11-20,Este,Jabón de barra,Limpieza,1,11.02
+2021-09-17,Oeste,Detergente,Limpieza,10,1.35
+2020-05-12,Centro,Jabón de barra,Limpieza,6,11.23
+2021-01-13,Norte,Detergente,Limpieza,10,14.47
+2020-04-12,Sur,Jabón de barra,Limpieza,17,10.03
+2021-12-16,Este,Detergente,Limpieza,3,13.43
+2020-08-01,Oeste,Jabón de barra,Limpieza,10,18.04
+2019-10-25,Centro,Detergente,Limpieza,4,13.43
+2019-11-20,Norte,Jabón de barra,Limpieza,7,7.28
+2021-09-23,Sur,Detergente,Limpieza,5,14.93
+2020-10-09,Este,Jabón de barra,Limpieza,1,11.02
+2021-10-18,Oeste,Detergente,Limpieza,10,1.35
+2021-01-08,Centro,Jabón de barra,Limpieza,6,11.23
+2019-12-25,Norte,Detergente,Limpieza,10,14.47
+2021-04-20,Sur,Jabón de barra,Limpieza,17,10.03
+2020-04-24,Este,Detergente,Limpieza,3,13.43
+2021-10-14,Oeste,Jabón de barra,Limpieza,10,18.04
+2021-09-02,Centro,Detergente,Limpieza,4,13.43
+2019-09-17,Norte,Jabón de barra,Limpieza,7,7.28
+2021-02-09,Sur,Detergente,Limpieza,5,14.93
+2020-06-23,Este,Jabón de barra,Limpieza,1,11.02
+2021-07-28,Oeste,Detergente,Limpieza,10,1.35
+2019-05-24,Centro,Jabón de barra,Limpieza,6,11.23
+2021-05-27,Norte,Detergente,Limpieza,10,14.47
+2020-01-20,Sur,Jabón de barra,Limpieza,17,10.03
+2021-03-24,Este,Detergente,Limpieza,3,13.43
+2020-03-12,Oeste,Jabón de barra,Limpieza,10,18.04
+2020-10-09,Centro,Detergente,Limpieza,4,13.43
+2019-11-20,Norte,Jabón de barra,Limpieza,7,7.28
+2021-01-16,Sur,Detergente,Limpieza,5,14.93
+2019-07-28,Este,Jabón de barra,Limpieza,1,11.02
+2021-07-28,Oeste,Detergente,Limpieza,10,1.35
+2020-07-16,Centro,Jabón de barra,Limpieza,6,11.23
+2020-01-20,Norte,Detergente,Limpieza,10,14.47
+2020-11-19,Sur,Jabón de barra,Limpieza,17,10.03
+2021-05-18,Este,Detergente,Limpieza,3,13.43
+2019-06-03,Oeste,Jabón de barra,Limpieza,10,18.04
+2019-04-24,Centro,Detergente,Limpieza,4,13.43
+2021-10-21,Norte,Jabón de barra,Limpieza,7,7.28
+2020-08-27,Sur,Detergente,Limpieza,5,14.93
+2020-04-17,Este,Jabón de barra,Limpieza,1,11.02
+2019-07-16,Oeste,Detergente,Limpieza,10,1.35
