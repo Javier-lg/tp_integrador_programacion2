@@ -1,7 +1,23 @@
 # Proyecto de Ventas
 
-Este proyecto implementa una arquitectura **MVC (Modelo-Vista-Controlador)** en Python para la gestión de ventas.  
+Este proyecto implementa una arquitectura **MVC (Modelo-Vista-Controlador)** en Python para la gestión y análisis de ventas.  
 Incluye módulos para modelos, vistas y controladores, con un punto de entrada principal (`main.py`).
+
+---
+
+## Consigna del Trabajo Integrador
+
+Se requiere crear un programa capaz de analizar un archivo de datos de ventas.
+
+Si el archivo no existe, el sistema debe generarlo automáticamente con datos ficticios que incluyan fecha, sucursal, producto, categoría, cantidad y precio.
+
+El sistema debe permitir al usuario ingresar el nombre de un producto para analizar.  
+Para el producto seleccionado, el programa debe calcular y mostrar un resumen estadístico que incluya el total vendido, el promedio mensual, el mes de mayor y menor venta, y las ventas por sucursal.  
+Además, debe mostrar un análisis detallado de la serie mensual, indicando los valores de cada mes, cuáles superan el promedio y el listado ordenado de valores.
+
+También se deben generar visualizaciones que representen la evolución de las ventas mensuales y la participación de las categorías en el total de ventas.
+
+Por último, el sistema debe permitir visualizar información de los clientes, incluyendo la lista completa, los clientes con mayor gasto, los más activos y el historial de compras de cada uno.
 
 ---
 
@@ -9,8 +25,8 @@ Incluye módulos para modelos, vistas y controladores, con un punto de entrada p
 
 Asegúrate de tener instalado:
 
-- [Python 3.10+](https://www.python.org/downloads/)
-- `pip` (gestor de paquetes de Python)
+- Python 3.10 o superior
+- pip (gestor de paquetes de Python)
 
 ---
 
