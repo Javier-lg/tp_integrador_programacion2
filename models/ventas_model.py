@@ -2,26 +2,37 @@ import pandas as pd
 import numpy as np
 
 from utils.helpers import normalizar_texto
-from utils.db_conn import CSVDatabase
+from utils.db_conn import CSVDatabase, CSVProductosDB
 
 class VentasModel:
-    def __init__(self, db_path='data/ventas.csv'):
+    def __init__(self, db_path='data/ventas.csv', db_productos_path='data/productos.csv'):
         self.db = CSVDatabase(path=db_path)
         self.df = None
+        self.db_productos = CSVProductosDB()
+        self.df_productos = None
 
         if self.db.verificar_csv():
             self.df = self.db.leer_csv()
         else:
+            print("ADVERTENCIA: No se pudo cargar el archivo de ventas.")
             pass
+
+        if self.db_productos.verificar_csv():
+            self.df_productos = self.db_productos.leer_csv()
+        else:
+            print("ADVERTENCIA: No se pudo cargar el archivo de productos.")
+
+        
 
     def get_dataframe(self):
         return self.df
     
     def get_productos_unicos(self):
-        if self.df is None:
+        if self.df_productos is None:
+            print("Error: No se pudo acceder a la lista de productos desde productos.csv.")
             return []
         
-        productos = sorted(list(self.df['producto'].unique()))
+        productos = sorted(list(self.df_productos['producto'].unique()))
         return productos
     
     def resumen_producto(self, producto):
@@ -71,3 +82,15 @@ class VentasModel:
         df2['monto'] = df2['cantidad'] * df2['precio_unitario']
         cat = df2.groupby('categoria')['monto'].sum()
         return cat
+    
+    def get_reporte_sucursales(self):
+        if self.df is None:
+            print("Error: Datos de ventas no disponibles.")
+            return None
+        
+        df_temp = self.df.copy()
+        df_temp['monto'] = df_temp['cantidad'] * df_temp['precio_unitario']
+
+        reporte = df_temp.groupby('sucursal')['monto'].sum()
+
+        return reporte

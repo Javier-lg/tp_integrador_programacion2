@@ -20,17 +20,20 @@ class VentasController:
                 self.view.mostrar_error("No se encontrar productos.")
                 break
 
-            producto_elegido = self.view.mostrar_menu_productos_paginado(productos)
+            eleccion = self.view.mostrar_menu_productos_paginado(productos)
 
-            if producto_elegido == 'reporte':
+            if eleccion == 'reporte_categorias':
                 self.analizar_categorias()
 
-            elif producto_elegido is None:
+            if eleccion == 'reporte_sucursales':
+                self.analizar_sucursales()
+
+            elif eleccion is None:
                 break
             
             else:
                 self.view.limpiar_pantalla()
-                self.analizar_producto(producto_elegido)
+                self.analizar_producto(eleccion)
 
                 self.view.pausa()
 
@@ -51,3 +54,14 @@ class VentasController:
     def analizar_categorias(self):
         datos_torta_cat = self.model.get_datos_torta_categorias()
         self.view.graficar_torta(datos_torta_cat, "Participacion por categoria")
+
+    def analizar_sucursales(self):
+        self.view.limpiar_pantalla()
+        try:
+            reporte_datos = self.model.get_reporte_sucursales()
+
+            self.view.mostrar_reporte_sucursales(reporte_datos)
+
+            self.view.graficar_barras_sucursales(reporte_datos)
+        except Exception as e:
+            self.view.mostrar_error(f"Error al generar reporte de sucursales: {e}")

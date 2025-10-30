@@ -26,6 +26,7 @@ class VentasView(BaseView):
             print(f"Página {pagina_actual + 1} de {total_paginas}")
             print("Opciones:")
             print("  [reporte_categorias] Reporte de ventas por categoria")
+            print("  [reporte_sucursales] Reporte de ventas por sucursales")
             if fin < len(productos):
                 print("  [s] Siguiente pagina (Ver mas)")
             if pagina_actual > 0:
@@ -39,7 +40,7 @@ class VentasView(BaseView):
                 opcion_num = int(opcion)
                 if 1 <= opcion_num <= len(productos):
                     if (inicio + 1 <= opcion_num <= fin):
-                        return productos[opcion_num - 1] # Retorna el nombre del producto
+                        return productos[opcion_num - 1]
                     else:
                         print(f"\n'{opcion_num}' no esta en esta página. Buscando...")
                         
@@ -54,16 +55,15 @@ class VentasView(BaseView):
             elif opcion == 'v':
                 return None
             elif opcion == 'reporte_categorias':
-                return 'reporte'
+                return 'reporte_categorias'
+            elif opcion == 'reporte_sucursales':
+                return 'reporte_sucursales'
             else:
                 print(f"\nError: Opcion '{opcion}' no reconocida.")
                 self.pausa()
 
 
     def mostrar_titulo_reporte(self, producto):
-        """
-        Muestra un encabezado claro para el reporte.
-        """
         print("=================================================")
         print(f"  Análisis del Producto: {producto.upper()}")
         print("=================================================")
@@ -136,4 +136,34 @@ class VentasView(BaseView):
         plt.axis('equal')
         plt.tight_layout()
         
+        plt.show()
+
+    def mostrar_reporte_sucursales(self, reporte_series):
+        self.limpiar_pantalla()
+        print("--- Reporte de Ventas por Sucursal ---")
+        if reporte_series is None:
+            print("No hay datos para mostrar.")
+        else:
+            print(reporte_series.to_string(float_format='{:,.2f}'.format))
+            
+        self.pausa()
+
+    def graficar_barras_sucursales(self, reporte_series):
+        if reporte_series is None or reporte_series.empty:
+            print("\n[GRÁFICO] No hay datos de sucursales para graficar.")
+            return
+        
+        plt.figure(figsize=(8, 6))
+        reporte_series.plot(kind='bar', color='skyblue', edgecolor='black')
+
+        plt.title('Ventas Totales por Sucursal', fontsize=15)
+        plt.xlabel('Sucursal', fontsize=12)
+        plt.ylabel('Monto Total Vendido ($)', fontsize=12)
+        plt.xticks(rotation=0)
+        plt.grid(axis='y', linestyle='--', alpha=0.7)
+
+        formatter = plt.FuncFormatter(lambda x, p: '${:,.0f}'.format(x))
+        plt.gca().yaxis.set_major_formatter(formatter)
+
+        plt.tight_layout()
         plt.show()
