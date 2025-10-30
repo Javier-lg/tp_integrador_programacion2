@@ -1,3 +1,7 @@
+## Autor
+
+Desarrollado por **javier-lg** - **SALINAS LAVAYEN ROBERTO JAVIER**
+
 # Proyecto de Ventas
 
 Este proyecto implementa una arquitectura **MVC (Modelo-Vista-Controlador)** en Python para la gestión y análisis de ventas.  
@@ -113,6 +117,4 @@ deactivate
 
 ---
 
-## Autor
 
-Desarrollado por **javier-lg**
