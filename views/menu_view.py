@@ -38,6 +38,6 @@ class MenuView(BaseView):
             opcion = input("Ingrese su opción: ").strip()
 
             if opcion in ['1', '2', '0']:
-                return opcion # Devuelve una opción válida
+                return opcion
             else:
                 self.mostrar_error("Opción no válida. Intente nuevamente.")
